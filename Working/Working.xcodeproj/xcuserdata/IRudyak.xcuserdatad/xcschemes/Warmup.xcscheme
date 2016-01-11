@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D1107260486CEB800E47090"
-               BuildableName = "Warmup.app"
-               BlueprintName = "Section1-1"
-               ReferencedContainer = "container:Section1-1.xcodeproj">
+               BuildableName = "Working.app"
+               BlueprintName = "Working"
+               ReferencedContainer = "container:Working.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "Warmup.app"
-            BlueprintName = "Section1-1"
-            ReferencedContainer = "container:Section1-1.xcodeproj">
+            BuildableName = "Working.app"
+            BlueprintName = "Working"
+            ReferencedContainer = "container:Working.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "Warmup.app"
-            BlueprintName = "Section1-1"
-            ReferencedContainer = "container:Section1-1.xcodeproj">
+            BuildableName = "Working.app"
+            BlueprintName = "Working"
+            ReferencedContainer = "container:Working.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "Warmup.app"
-            BlueprintName = "Section1-1"
-            ReferencedContainer = "container:Section1-1.xcodeproj">
+            BuildableName = "Working.app"
+            BlueprintName = "Working"
+            ReferencedContainer = "container:Working.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
