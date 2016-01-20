@@ -1,15 +1,25 @@
-//
-//  main.cpp
-//  pa3-1_12step
-//
-//  Created by Ilya Rudyak on 1/20/16.
-//  Copyright © 2016 Ilya Rudyak. All rights reserved.
-//
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int countWays(int n);
+
+int main() {
+    
+    cout << countWays(5) << endl;
     return 0;
+}
+
+
+int countWays(int n) {
+    
+    if (n == 1) {
+        return 1;
+    }
+    
+    if (n == 2) {
+        return 2;
+    }
+    
+    return countWays(n - 1) + countWays(n - 2);
 }
