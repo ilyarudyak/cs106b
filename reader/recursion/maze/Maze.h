@@ -33,8 +33,6 @@ private:
     // maze[0].size() - number of columns
     std::vector<std::vector<Square> > maze;
     Point startSquare;
-//    double x0;
-//    double y0;
     int rows;
     int cols;
 
@@ -49,8 +47,6 @@ private:
     void setHorizontalWall(Point pt);
     void setVerticalWall(Point pt);
     void setStartSquare(Point pt);
-
-
 
     // adj point in given direction
     Point adjacentPoint(Point start, Direction dir);

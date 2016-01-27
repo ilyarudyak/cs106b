@@ -1,25 +1,41 @@
 #include <iostream>
-#include <vector>
 #include "Maze.h"
 using namespace std;
 
-void testVector() {
-    vector<vector<int>> v = { {1, 2, 3},
-                              {10, 20, 30},
-                              {100, 200, 300}
-    };
+Point adjacentPoint(Point start, Direction dir) {
+    switch (dir) {
+        case NORTH: return Point(start.getX() - 1, start.getY()    );
+        case EAST:  return Point(start.getX()    , start.getY() + 1);
+        case SOUTH: return Point(start.getX() + 1, start.getY()    );
+        case WEST:  return Point(start.getX(),     start.getY() - 1);
+    }
+    return start;
+}
 
-    cout << v[2][1] << endl;
-
-    vector<vector<int>> w(5, vector<int>(5));
-    w[1][2] = 10;
-    cout << w[1][2] << endl;
+bool solveMaze(Maze &maze, Point start) {
+    if (maze.isOutside(start)) return true;
+    if (maze.isMarked(start)) return false;
+    maze.markSquare(start);
+    for (Direction dir = NORTH; dir <= WEST; dir++) {
+        if (!maze.wallExists(start, dir)) {
+            if (solveMaze(maze, adjacentPoint(start, dir))) {
+                return true;
+            }
+        }
+    }
+    maze.unmarkSquare(start);
+    return false;
 }
 
 int main() {
 
     Maze maze("SampleMaze.txt");
-    maze.printMaze();
+    if (solveMaze(maze, maze.getStartPosition())) {
+        maze.printMaze();
+        cout << "The marked path is a solution." << endl;
+    } else {
+        cout << "No solution exists." << endl;
+    }
 
     return 0;
 }

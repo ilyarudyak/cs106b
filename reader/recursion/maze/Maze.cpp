@@ -11,17 +11,15 @@ Maze::Maze(std::string filename) {
 Point Maze::getStartPosition() {
     return startSquare;
 }
-
 bool Maze::isOutside(Point pt) {
     return pt.getX() < 0 || pt.getY() < 0
            || pt.getX() >= rows
            || pt.getY() >= cols;
 
 }
-
 bool Maze::wallExists(Point pt, Direction dir) {
-    //TODO: implement function
-    return false;
+
+    return maze[pt.getX()][pt.getY()].walls[dir];
 }
 
 // mark and unmark squares
@@ -48,19 +46,26 @@ void Maze::printMaze() {
 
     for (int x = 0; x < rows; ++x) {
         for (int y = 0; y < cols; ++y) {
+            string mark;
+            if (maze[x][y].marked) {
+                mark = "x";
+            } else {
+                mark = " ";
+            }
+
             if (maze[x][y].walls[WEST]) {
                 if (startSquare.getX() == x &&
                     startSquare.getY() == y) {
                     cout << "|S";
                 } else {
-                    cout << "| ";
+                    cout << "|" + mark;
                 }
             } else {
                 if (startSquare.getX() == x &&
                     startSquare.getY() == y) {
                     cout << " S";
                 } else {
-                    cout << "  ";
+                    cout << " " + mark;
                 }
             }
             if (y == cols - 1 && maze[x][y].walls[EAST]) {
@@ -79,6 +84,8 @@ void Maze::printMaze() {
         cout << "+" << endl;
     }
 }
+
+/* private functions */
 
 // read file
 void Maze::readMazeFile(std::string filename) {
@@ -110,15 +117,11 @@ void Maze::processMazeFile(std::ifstream &in) {
     std::string line;
     for (int x = 0; x < rows; x++) {
         getline(in, line);
-        cout << line << endl;
         processDividerLine(line, x);
         getline(in, line);
-        cout << line << endl;
         processPassageLine(line, x);
     }
     getline(in, line);
-    cout << line << endl;
-    cout << endl;
     processDividerLine(line, rows);
 }
 // +-+-+-+-+-+-+-+-+
@@ -172,14 +175,14 @@ void Maze::setStartSquare(Point pt) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+Point Maze::adjacentPoint(Point start, Direction dir) {
+    int x = start.getX();
+    int y = start.getY();
+    switch (dir) {
+        case NORTH: return Point(x - 1, y    );
+        case EAST:  return Point(x    , y + 1);
+        case SOUTH: return Point(x + 1, y    );
+        case WEST:  return Point(x    , y - 1);
+    }
+    return start;
+}
