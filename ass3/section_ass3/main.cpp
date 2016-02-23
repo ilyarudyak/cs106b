@@ -34,11 +34,22 @@ void subset(string str) {
     subset("", str);
 }
 
+int gcd(int x, int y) {
+
+    if (x % y == 0) {
+        return y;
+    } else {
+        return gcd(y, x % y);
+    }
+}
+
 int main() {
 
-    vector<int> weights = {1, 3};
-    Measure m(weights);
-    cout << m.isMeasurable(2) << endl;
+    cout << gcd(32, 56) << endl;
+
+//    vector<int> weights = {1, 3};
+//    Measure m(weights);
+//    cout << m.isMeasurable(2) << endl;
 
 
 //    permute("ABC");
