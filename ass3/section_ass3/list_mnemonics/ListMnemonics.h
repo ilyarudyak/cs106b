@@ -7,6 +7,7 @@
 
 #include <string>
 #include <map>
+#include <set>
 
 using namespace std;
 
@@ -28,14 +29,20 @@ public:
     };
 
     ListMnemonics() = default;
-
     ListMnemonics(string strOfDigits);
 
     void listMnem();
 
+
+    const set<string> &getMnem() const {
+        return mnem;
+    }
+
 private:
 
     string strOfDigits;
+    set<string> mnem;
+
 
     void listMnem(string acc, string rest);
 

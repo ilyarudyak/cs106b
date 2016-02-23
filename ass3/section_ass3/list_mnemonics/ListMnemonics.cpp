@@ -19,6 +19,7 @@ void ListMnemonics::listMnem(string acc, string rest) {
 
     if (rest.size() == 0) {
         cout << acc << endl;
+        mnem.insert(acc);
     } else {
         char ch = rest[0];
         string mnem = kMnemMap.at(ch);
