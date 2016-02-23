@@ -43,9 +43,23 @@ int gcd(int x, int y) {
     }
 }
 
+void reverseString(string acc, string rest) {
+
+    if (rest.size() == 0) {
+        cout << acc << endl;
+    } else {
+        reverseString(acc + rest.back(), rest.substr(0, rest.size() - 1));
+    }
+}
+void reverseString(string s) {
+    reverseString("", s);
+}
+
 int main() {
 
-    cout << gcd(32, 56) << endl;
+    reverseString("hello my friend!");
+
+//    cout << gcd(32, 56) << endl;
 
 //    vector<int> weights = {1, 3};
 //    Measure m(weights);
