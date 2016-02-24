@@ -16,13 +16,13 @@ int main() {
     list.printList();
 
     // (2) test delete functions
-    list.deleteFromHead();
-    list.deleteFromTail();
-    list.deleteNode(2);
+    cout << list.deleteFromHead() << endl;
+    cout << list.deleteFromTail() << endl;
+//    list.deleteNode(2);
     list.printList();
-
-    // (3) test search
-    cout << list.isInList(1) << endl;
+//
+//    // (3) test search
+//    cout << list.isInList(1) << endl;
 
 
     return 0;

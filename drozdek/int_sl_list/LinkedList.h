@@ -22,14 +22,18 @@ public:
     ~LinkedList();
 
     int isEmpty() {
-        return head == 0;
+        return head == nullptr;
     }
+
     void addToHead(int);
     void addToTail(int);
+
     int  deleteFromHead();
     int  deleteFromTail();
     void deleteNode(int);
+
     bool isInList(int) const;
+    
     void printList() const;
 
 private:
