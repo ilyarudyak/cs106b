@@ -32,28 +32,6 @@ public:
 private:
     Node *cursor;
 };
-/*
-class CircleList { public:
-    CircleList();
-    ̃CircleList();
-    bool empty() const;
-    const Elem& front() const;
-    const Elem& back() const;
-    void advance();
-    void add(const Elem& e);
-    void remove();
-private:
-    CNode* cursor;
-// a circularly linked list
-// constructor
-// destructor
-// is list empty?
-// element at cursor
-// element following cursor // advance cursor
-// add after cursor
-// remove node after cursor
-// the cursor
-}; */
 
 
 #endif //CIRCULAR_LIST_CIRCULARLIST_H

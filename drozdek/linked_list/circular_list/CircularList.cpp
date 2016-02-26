@@ -1,4 +1,6 @@
 #include "CircularList.h"
+#include <iostream>
+using namespace std;
 
 bool CircularList::empty() {
     return cursor == nullptr;
@@ -19,15 +21,18 @@ int CircularList::tail() {
 }
 
 void CircularList::advance() {
-
+    if (!empty() && cursor->next != cursor) {
+        cursor = cursor->next;
+    }
 }
 
 void CircularList::addAfterCursor(int data) {
     if (empty()) {
 //        cursor = new Node(data, cursor);
 //        cursor->next = cursor;
+
         Node *newNode = new Node;
-        newNode->data =data;
+        newNode->data = data;
         // point to itself
         newNode->next = newNode;
         cursor = newNode;
@@ -41,11 +46,33 @@ void CircularList::addAfterCursor(int data) {
 }
 
 void CircularList::removeAfterCursor() {
+    if (empty()) { throw "the list is empty"; }
 
+    // only one node in the list
+    if (cursor->next == cursor) {
+        delete cursor;
+        cursor = nullptr;
+    } else {
+        Node *tmp = cursor->next->next;
+        delete cursor->next;
+        cursor->next = tmp;
+    }
 }
 
-
 void CircularList::printList() {
+    if (empty()) {
+        cout << "list is empty" << endl;
+    }
+
+    Node *walker = cursor;
+    while (walker != nullptr) {
+        cout << walker->data << "->";
+        walker = walker->next;
+        if (walker == cursor) {
+            cout << cursor->data << endl;
+            break;
+        }
+    }
 
 }
 
