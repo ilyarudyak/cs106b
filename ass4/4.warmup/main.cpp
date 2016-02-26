@@ -51,12 +51,61 @@ Node* convertToList(vector<int> v) {
     }
     return head;
 }
+Node* convertToListRec(vector<int> &v, int index) {
+    if (index >= v.size()) {
+        return nullptr;
+    }
 
+    Node *cur = new Node;
+    cur->data = v[index];
+    cur->next = convertToListRec(v, index + 1);
+    return cur;
+}
+Node * convertToListRec(vector<int> &v) {
+    return convertToListRec(v, 0);
+}
+int sumList(Node *&head) {
+    int sum = 0;
+    for (Node *w = head; w != nullptr; w = w->next) {
+        sum += w->data;
+    }
+    return sum;
+
+}
+int sumListRec(Node *&head) {
+    if (head == nullptr) {
+        return 0;
+    } else {
+        return head->data + sumList(head->next);
+    }
+}
+void popRocks(Node * & mikey) {
+    Node *ptr;
+    for (ptr = mikey; ptr->next != NULL; ptr = ptr->next) { }
+    ptr->next = mikey;
+    ptr = ptr->next;
+    mikey = mikey->next;
+    ptr->next = NULL;
+}
 
 int main() {
 
-    vector<int> v = {1, 2, 3, 4, 5};
-    printList(convertToList(v));
+    vector<int> v = {15, 30, 45, 60};
+    Node *head = convertToList(v);
+    popRocks(head);
+    printList(head);
+
+//    vector<int> v = {1, 2, 3, 4, 5};
+
+//    Node *head = convertToList(v);
+//    printList(head);
+//
+//    cout << sumList(head) << endl;
+//    cout << sumListRec(head) << endl;
+
+//    Node *head2 = convertToListRec(v);
+//    printList(head2);
+
     return 0;
 }
 
