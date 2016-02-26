@@ -87,13 +87,36 @@ void popRocks(Node * & mikey) {
     mikey = mikey->next;
     ptr->next = NULL;
 }
+void append (Node *&first, Node *&second) {
+    if (first == nullptr) { first = second; }
+    Node *w = nullptr;
+    for( w = first; w->next != nullptr; w = w->next) { }
+    w->next = second;
+}
+void appendRec(Node *&first, Node *&second) {
+    if (first == NULL) {
+        first = second;
+    }
+    else {
+        appendRec(first->next, second);
+    }
+}
 
 int main() {
 
-    vector<int> v = {15, 30, 45, 60};
-    Node *head = convertToList(v);
-    popRocks(head);
-    printList(head);
+    vector<int> v = {1, 4, 6};
+    vector<int> v2 = {3, 19, 2};
+    Node *first = convertToList(v);
+    Node *second = convertToList(v2);
+//    append(first, second);
+    appendRec(first, second);
+    printList(first);
+
+    // test popRocks()
+//    vector<int> v = {15, 30, 45, 60};
+//    Node *head = convertToList(v);
+//    popRocks(head);
+//    printList(head);
 
 //    vector<int> v = {1, 2, 3, 4, 5};
 
