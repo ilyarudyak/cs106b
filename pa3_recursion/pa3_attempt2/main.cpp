@@ -55,13 +55,31 @@ void canMakeSum2(vector<int>& nums, int targetSum) {
     return canMakeSum2("", 0, nums, targetSum, 0);
 }
 
+//TODO eliminate permutations
+void canMakeSum3(string sacc, int acc, vector<int>& nums, int targetSum) {
 
+    if (nums.empty()) {
+        if (acc == targetSum) {
+            cout << sacc << " " << acc << " " << to_string(acc == targetSum) << endl;
+        }
+    } else {
+        for (int i = 0; i < nums.size(); ++i) {
+            vector<int> nums2 = nums;
+            nums2.erase(nums2.begin() + i);
+            canMakeSum3(sacc + to_string(nums[i]), acc + nums[i], nums2, targetSum);
+            canMakeSum3(sacc, acc, nums2, targetSum);
+        }
+    }
+}
+void canMakeSum3(vector<int>& nums, int targetSum) {
+    canMakeSum3("", 0, nums, targetSum);
+}
 
 int main() {
 
     vector<int> nums = {3, 7, 1, 8, -3};
-//    cout << canMakeSum(nums, 4) << endl;
-    canMakeSum2(nums, 4);
+    canMakeSum3(nums, 4);
+//    canMakeSum2(nums, 4);
 
 //    printInBinary(250);
 

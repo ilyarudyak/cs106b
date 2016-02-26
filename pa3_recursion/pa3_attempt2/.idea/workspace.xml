@@ -12,384 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b89e0055-ca05-4e94-9b2e-0fd1560088ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/console.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/direction.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/error.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/filelib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/foreach.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/gevents.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/ginteractors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/gmath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/gobjects.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/graph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/grid.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/gtimer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/gtypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/gwindow.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/hashmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/hashset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/lexicon.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/libStanfordCPPLib.a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/pqueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/private/main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/private/randompatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/private/tokenpatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/private/tplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/queue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/random.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/simpio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/sound.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/stack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/strlib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/thread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/tokenscanner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/StanfordCPPLib/vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/Warmup.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/Blank Project.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/Warmup.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/Warmup.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/0 - Warmup/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/Consecutive Heads.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/Blank Project.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/Consecutive Heads.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Consecutive Heads.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/ConsecutiveHeads.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/console.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/direction.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/error.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/filelib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/foreach.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/gevents.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/ginteractors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/gmath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/gobjects.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/graph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/grid.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/gtimer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/gtypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/gwindow.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/hashmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/hashset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/lexicon.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/libStanfordCPPLib.a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/pqueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/private/main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/private/randompatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/private/tokenpatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/private/tplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/queue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/random.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/simpio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/sound.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/stack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/strlib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/thread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/tokenscanner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/StanfordCPPLib/vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/1 - Consecutive Heads/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/Combinations.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/Blank Project.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/Combinations.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Combinations.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/console.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/direction.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/error.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/filelib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/foreach.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/gevents.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/ginteractors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/gmath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/gobjects.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/graph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/grid.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/gtimer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/gtypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/gwindow.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/hashmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/hashset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/lexicon.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/libStanfordCPPLib.a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/pqueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/private/main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/private/randompatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/private/tokenpatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/private/tplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/queue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/random.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/simpio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/sound.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/stack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/strlib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/thread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/tokenscanner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/StanfordCPPLib/vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/2 - Combinations/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/Numeric Conversions.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/Blank Project.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/Numeric Conversions.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/Numeric Conversions.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/NumericConversions.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/console.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/direction.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/error.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/filelib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/foreach.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/gevents.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/ginteractors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/gmath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/gobjects.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/graph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/grid.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/gtimer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/gtypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/gwindow.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/hashmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/hashset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/lexicon.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/libStanfordCPPLib.a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/pqueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/private/main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/private/randompatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/private/tokenpatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/private/tplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/queue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/random.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/simpio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/sound.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/stack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/strlib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/thread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/tokenscanner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/StanfordCPPLib/vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/3 - Numeric Conversions/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/1984.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/Flesch-Kincaid.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/Blank Project.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/Flesch-Kincaid.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-Kincaid.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-KincaidDemo.app/Contents/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-KincaidDemo.app/Contents/MacOS/Flesch-Kincaid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Flesch-KincaidDemo.app/Contents/PkgInfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/FleschKincaid.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Hi.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/JFK-Berlin.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/JaneEyre.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/MLK-Dream.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Middlemarch.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/Preamble-Constitution.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/RosesAreRed.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/console.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/direction.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/error.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/filelib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/foreach.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/gevents.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/ginteractors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/gmath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/gobjects.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/graph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/grid.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/gtimer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/gtypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/gwindow.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/hashmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/hashset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/lexicon.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/libStanfordCPPLib.a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/pqueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/private/main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/private/randompatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/private/tokenpatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/private/tplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/queue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/random.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/simpio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/sound.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/stack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/strlib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/thread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/tokenscanner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/StanfordCPPLib/vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/TaleOfTwoCities.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/TomSawyer.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/US-Constitution.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa1/4 - Flesch-Kincaid/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/pa2a_rand_writing.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing/tomsawyer.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing/ts100.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa2/pa2a_rand_writing/pa2a_rand_writing/ts1000.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-1_12step/pa3-1_12step.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-1_12step/pa3-1_12step.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-1_12step/pa3-1_12step.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-1_12step/pa3-1_12step.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/pa3-1_12step.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-1_12step/pa3-1_12step.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-1_12step/pa3-1_12step/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-3_votes/pa3-3_votes.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-3_votes/pa3-3_votes.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-3_votes/pa3-3_votes.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-3_votes/pa3-3_votes.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/pa3-3_votes.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-3_votes/pa3-3_votes.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-3_votes/pa3-3_votes/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/console.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/direction.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/error.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/filelib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/foreach.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/gevents.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/ginteractors.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/gmath.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/gobjects.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/graph.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/grid.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/gtimer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/gtypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/gwindow.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/hashmap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/hashset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/lexicon.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/libStanfordCPPLib.a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/map.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/point.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/pqueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/private/main.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/private/randompatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/private/tokenpatch.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/private/tplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/queue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/random.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/set.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/simpio.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/sound.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/stack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/strlib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/thread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/tokenscanner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/StanfordCPPLib/vector.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/T9.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.xcworkspace/xcuserdata/dawsonzhou.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/project.xcworkspace/xcuserdata/patrickacostello.xcuserdatad/WorkspaceSettings.xcsettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/Warmup.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/Blank Project.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/xcuserdata/dawsonzhou.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/Warmup.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/pa3-4_T9.xcodeproj/xcuserdata/patrickacostello.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/spl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-4_T9/words" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/.idea/pa3-5_puzzle.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3-5_puzzle/main.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3_warm_up/pa3_warm_up.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3_warm_up/pa3_warm_up.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3_warm_up/pa3_warm_up.xcodeproj/project.xcworkspace/xcuserdata/IRudyak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3_warm_up/pa3_warm_up.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/pa3_warm_up.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3_warm_up/pa3_warm_up.xcodeproj/xcuserdata/IRudyak.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../pa3/pa3_warm_up/pa3_warm_up/main.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ass3/section_ass3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../ass3/section_ass3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="pa3_attempt2.iws" />
@@ -414,8 +36,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37278107">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.1597633">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#61#198#0" expanded="false" />
                 <element signature="e#201#448#0" expanded="false" />
@@ -423,7 +45,8 @@
                 <element signature="e#857#960#0" expanded="false" />
                 <element signature="e#962#1385#0" expanded="false" />
                 <element signature="e#1386#1491#0" expanded="false" />
-                <element signature="e#1495#1662#0" expanded="false" />
+                <element signature="e#1493#2050#0" expanded="false" />
+                <element signature="e#2051#2146#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -563,8 +186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37278107">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1597633">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#61#198#0" expanded="false" />
             <element signature="e#201#448#0" expanded="false" />
@@ -572,7 +195,8 @@
             <element signature="e#857#960#0" expanded="false" />
             <element signature="e#962#1385#0" expanded="false" />
             <element signature="e#1386#1491#0" expanded="false" />
-            <element signature="e#1495#1662#0" expanded="false" />
+            <element signature="e#1493#2050#0" expanded="false" />
+            <element signature="e#2051#2146#0" expanded="false" />
           </folding>
         </state>
       </provider>

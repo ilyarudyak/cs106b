@@ -12,8 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38852de0-8980-4210-95b3-1ad6f4df7264" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PQueueVect.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PQueueVect.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedList.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedList.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PQueueVect.cpp" afterPath="$PROJECT_DIR$/pqueue_vector/PQueueVect.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PQueueVect.h" afterPath="$PROJECT_DIR$/pqueue_vector/PQueueVect.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pa3_recursion/pa3_attempt2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pa3_recursion/pa3_attempt2/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pa3_recursion/pa3_attempt2/main.cpp" afterPath="$PROJECT_DIR$/../pa3_recursion/pa3_attempt2/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pa6_pqueue.iml" afterPath="$PROJECT_DIR$/.idea/pa6_pqueue.iml" />
@@ -40,37 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file leaf-file-name="LinkedList.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PQueueVect.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PQueueVect.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PQueueVect.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PQueueVect.h">
+      <file leaf-file-name="LinkedList.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinkedList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66568047">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.39940828">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
-                <element signature="e#141#382#1" expanded="false" />
-                <element signature="e#739#821#0" expanded="false" />
-                <element signature="e#823#904#0" expanded="false" />
+                <element signature="e#74#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,8 +74,9 @@
       <list>
         <option value="$PROJECT_DIR$/PQueue.h" />
         <option value="$PROJECT_DIR$/PQueueVect.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/PQueueVect.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList.h" />
       </list>
     </option>
   </component>
@@ -147,6 +136,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pqueue_vector" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.pa6_pqueue">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="pa6_pqueue" TARGET_NAME="pa6_pqueue" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
@@ -211,17 +205,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PQueueVect.cpp">
+    <entry file="file://$PROJECT_DIR$/pqueue_vector/PQueueVect.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -229,14 +213,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PQueueVect.h">
+    <entry file="file://$PROJECT_DIR$/pqueue_vector/PQueueVect.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66568047">
+        <state vertical-scroll-proportion="1.0135136">
           <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="e#141#382#1" expanded="false" />
-            <element signature="e#739#821#0" expanded="false" />
-            <element signature="e#823#904#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5675676">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39940828">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#74#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
