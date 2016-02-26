@@ -13,7 +13,6 @@ void LinkedList::addSorted(int data) {
         return;
     }
 
-
     Node *prev = head; Node *walker = head;
     while (walker != nullptr) {
         if (walker->data > data) {
@@ -42,6 +41,29 @@ void LinkedList::printList() const {
     }
 
 }
+
+
+int LinkedList::removeFromHead() {
+    if (isEmpty()) { throw "list is empty"; }
+
+    int tmp = head->data;
+    Node *tmpNode = head;
+    head = head->next;
+    delete tmpNode;
+    return tmp;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

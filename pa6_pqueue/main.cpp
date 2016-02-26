@@ -1,17 +1,30 @@
 #include <iostream>
 #include "pqueue_vector/PQueueVect.h"
 #include "pqueue_list/LinkedList.h"
+#include "pqueue_list/PQueueList.h"
 
 using namespace std;
 
 int main() {
 
-    srand((unsigned int) time(nullptr));
-    LinkedList list;
+    PQueueList pql;
     for (int i = 0; i < 10; ++i) {
-        list.addSorted(rand() % 100);
+        pql.enqueue(i);
     }
-    list.printList();
+    cout << pql.dequeueMin() << endl;
+    cout << pql.dequeueMin() << endl;
+    cout << pql.dequeueMin() << endl;
+
+
+
+//    srand((unsigned int) time(nullptr));
+//    LinkedList list;
+
+    // random test of add sorted
+//    for (int i = 0; i < 10; ++i) {
+//        list.addSorted(rand() % 100);
+//    }
+//    list.printList();
 
 
     // simple test of add sorted

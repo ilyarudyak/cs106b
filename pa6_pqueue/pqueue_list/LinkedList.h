@@ -17,11 +17,12 @@ class LinkedList {
 public:
     LinkedList() : head(nullptr) { }
 
-    int isEmpty() {
+    bool isEmpty() {
         return head == nullptr;
     }
     void addToHead(int);
     void addSorted(int);
+    int removeFromHead();
     void printList() const;
 
 
