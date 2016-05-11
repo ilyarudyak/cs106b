@@ -24,6 +24,10 @@ public:
     void addFront(const T&);
     void removeFront();
     void show();
+    void showRec(Node<T>*);
+    void showRec();
+
+    // from ass. 7
     // duplicate every node in the list
     // 1->2->3 modified to 1->1->2->2->3->3
     void stutter();
@@ -80,6 +84,22 @@ template <typename T> void LinkedList<T>::show() {
     }
     cout << cur->data << endl;
 }
+
+template <typename T> void LinkedList<T>::showRec(Node<T>* node) {
+    if (node == nullptr) {
+        return;
+    } else if (node->next == nullptr) {
+        cout << node->data << endl;
+    } else {
+        cout << node->data << "->";
+        showRec(node->next);
+    }
+
+}
+template <typename T> void LinkedList<T>::showRec() {
+    showRec(head);
+}
+
 template <typename T> void LinkedList<T>::stutter() {
     if (empty()) {
         return;

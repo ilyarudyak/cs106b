@@ -11,13 +11,13 @@ int main() {
     for (int i = 4; i >= 0; --i) {
         list.addFront(i);
     }
-    list.show();
+    list.showRec();
 
-    list.stutter();
-    list.show();
-
-    list.unstutter();
-    list.show();
+//    list.stutter();
+//    list.show();
+//
+//    list.unstutter();
+//    list.show();
 
 //    srand((unsigned int) time(nullptr));
 //    RandomQueue<int> queue;
