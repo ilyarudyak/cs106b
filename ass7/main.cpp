@@ -3,15 +3,17 @@
 #include "RandomQueue.h"
 #include "LinkedList.h"
 
-
 using namespace std;
 
 int main() {
 
     LinkedList<int> list;
-    for (int i = 9; i >= 0; --i) {
+    for (int i = 4; i >= 0; --i) {
         list.addFront(i);
     }
+    list.show();
+
+    list.stutter();
     list.show();
 
 //    srand((unsigned int) time(nullptr));

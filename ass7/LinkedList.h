@@ -23,6 +23,9 @@ public:
     void addFront(const T&);
     void removeFront();
     void show();
+    // duplicate every node in the list
+    // 1->2->3 modified to 1->1->2->2->3->3
+    void stutter();
 
 private:
     Node<T>* head;
@@ -67,6 +70,21 @@ template <typename T> void LinkedList<T>::show() {
         cout << cur->data << "->";
     }
     cout << cur->data << endl;
+}
+template <typename T> void LinkedList<T>::stutter() {
+    if (empty()) {
+        cout << "list is empty..." << endl;
+        return;
+    }
+
+    for (Node<T>* cur = head; cur != nullptr ; cur = cur->next) {
+        Node<T>* newNode = new Node<T>;
+        newNode->data = cur->data;
+        newNode->next = cur->next;
+        cur->next = newNode;
+        cur = newNode;
+    }
+
 }
 
 #endif //ASS7_LINKEDLIST_H
