@@ -1,0 +1,107 @@
+//
+// Created by Ilya Rudyak on 5/11/16.
+//
+
+#ifndef ASS7_LINKEDLIST_H
+#define ASS7_LINKEDLIST_H
+
+#include <iostream>
+using namespace std;
+
+template <typename T> struct Node {
+    T data;
+    Node* next;
+};
+
+template <typename T> class LinkedList {
+
+public:
+    LinkedList();
+    ~LinkedList();
+    bool empty() const;
+    const T& getFront() const;
+    void addFront(const T&);
+    void removeFront();
+    void show();
+
+private:
+    Node<T>* head;
+};
+
+template <typename T> LinkedList<T>::LinkedList() {
+    head = nullptr;
+}
+template <typename T> LinkedList<T>::~LinkedList() {
+    while (!empty()) {
+        removeFront();
+    };
+}
+template <typename T> bool LinkedList<T>::empty() const {
+    return head == nullptr;
+}
+template <typename T> const T& LinkedList<T>::getFront() const {
+    if (empty()) { return nullptr; }
+    else { return head->data; }
+}
+template <typename T> void LinkedList<T>::addFront(const T &t) {
+    Node<T>* newNode = new Node<T>;
+    newNode->data = t;
+
+    // this code works even if head == nullptr
+    newNode->next = head;
+    head = newNode;
+}
+template <typename T> void LinkedList<T>::removeFront() {
+    if (empty()) { return; }
+    Node<T>* oldHead = head;
+    head = head->next;
+    delete oldHead;
+}
+template <typename T> void LinkedList<T>::show() {
+    if (empty()) {
+        cout << "list is empty..." << endl;
+        return;
+    }
+    Node<T>* cur;
+    for (cur = head; cur->next != nullptr ; cur = cur->next) {
+        cout << cur->data << "->";
+    }
+    cout << cur->data << endl;
+}
+
+#endif //ASS7_LINKEDLIST_H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

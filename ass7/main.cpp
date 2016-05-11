@@ -1,22 +1,28 @@
 #include <iostream>
 #include "StackWithVector.h"
 #include "RandomQueue.h"
+#include "LinkedList.h"
 
 
 using namespace std;
 
 int main() {
 
-    srand((unsigned int) time(nullptr));
-    RandomQueue<int> queue;
-    for (int i = 0; i < 10; ++i) { queue.enqueue(i); }
-    queue.show();
-
-    for (int j = 0; j < 10; ++j) {
-        cout << queue.dequeue() << " queue: ";
-        queue.show();
+    LinkedList<int> list;
+    for (int i = 9; i >= 0; --i) {
+        list.addFront(i);
     }
+    list.show();
 
+//    srand((unsigned int) time(nullptr));
+//    RandomQueue<int> queue;
+//    for (int i = 0; i < 10; ++i) { queue.enqueue(i); }
+//    queue.show();
+//
+//    for (int j = 0; j < 10; ++j) {
+//        cout << queue.dequeue() << " queue: ";
+//        queue.show();
+//    }
 
 //    StackWithVector<int> stack;
 //
