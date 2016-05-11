@@ -19,6 +19,7 @@ public:
     LinkedList();
     ~LinkedList();
     bool empty() const;
+    int getSize() const ;
     const T& getFront() const;
     void addFront(const T&);
     void removeFront();
@@ -26,13 +27,16 @@ public:
     // duplicate every node in the list
     // 1->2->3 modified to 1->1->2->2->3->3
     void stutter();
+    void unstutter();
 
 private:
     Node<T>* head;
+    int size;
 };
 
 template <typename T> LinkedList<T>::LinkedList() {
     head = nullptr;
+    size = 0;
 }
 template <typename T> LinkedList<T>::~LinkedList() {
     while (!empty()) {
@@ -41,6 +45,9 @@ template <typename T> LinkedList<T>::~LinkedList() {
 }
 template <typename T> bool LinkedList<T>::empty() const {
     return head == nullptr;
+}
+template <typename T> int LinkedList<T>::getSize() const {
+    return size;
 }
 template <typename T> const T& LinkedList<T>::getFront() const {
     if (empty()) { return nullptr; }
@@ -53,12 +60,14 @@ template <typename T> void LinkedList<T>::addFront(const T &t) {
     // this code works even if head == nullptr
     newNode->next = head;
     head = newNode;
+    size++;
 }
 template <typename T> void LinkedList<T>::removeFront() {
     if (empty()) { return; }
     Node<T>* oldHead = head;
     head = head->next;
     delete oldHead;
+    size--;
 }
 template <typename T> void LinkedList<T>::show() {
     if (empty()) {
@@ -73,16 +82,36 @@ template <typename T> void LinkedList<T>::show() {
 }
 template <typename T> void LinkedList<T>::stutter() {
     if (empty()) {
-        cout << "list is empty..." << endl;
         return;
     }
 
-    for (Node<T>* cur = head; cur != nullptr ; cur = cur->next) {
-        Node<T>* newNode = new Node<T>;
+    for (Node<T> *cur = head; cur != nullptr; cur = cur->next) {
+        Node<T> *newNode = new Node<T>;
         newNode->data = cur->data;
         newNode->next = cur->next;
         cur->next = newNode;
         cur = newNode;
+
+    }
+}
+template <typename T> void LinkedList<T>::unstutter() {
+    if (getSize() <= 1) {
+        return;
+    }
+
+    Node<T>* cur = head->next;
+    Node<T>* prev = head;
+
+    for (; cur != nullptr ; cur = cur->next) {
+        if (prev->data == cur->data) {
+            // remove node
+            Node<T> *tmp = cur;
+            prev->next = cur->next;
+            delete tmp;
+        } else {
+            // advance pointers
+            prev = cur;
+        }
     }
 
 }

@@ -16,6 +16,9 @@ int main() {
     list.stutter();
     list.show();
 
+    list.unstutter();
+    list.show();
+
 //    srand((unsigned int) time(nullptr));
 //    RandomQueue<int> queue;
 //    for (int i = 0; i < 10; ++i) { queue.enqueue(i); }
