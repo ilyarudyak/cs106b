@@ -8,10 +8,21 @@ using namespace std;
 int main() {
 
     LinkedList<int> list;
-    for (int i = 4; i >= 0; --i) {
-        list.addFront(i);
+
+    srand(0);
+    for (int i = 0; i < 10; ++i) {
+        int n = rand() % 10;
+        cout << n << " ";
+        list.insertSorted(n);
     }
-    list.showRec();
+    cout << endl;
+    list.show();
+
+
+//    for (int i = 4; i >= 0; --i) {
+//        list.addFront(i);
+//    }
+//    list.showRec();
 
 //    list.stutter();
 //    list.show();

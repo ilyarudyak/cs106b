@@ -26,6 +26,7 @@ public:
     void show();
     void showRec(Node<T>*);
     void showRec();
+    void insertSorted(T&);
 
     // from ass. 7
     // duplicate every node in the list
@@ -134,6 +135,32 @@ template <typename T> void LinkedList<T>::unstutter() {
         }
     }
 
+}
+
+template <typename T> void LinkedList<T>::insertSorted(T &t) {
+    Node<T>* newNode = new Node<T>;
+    newNode->data = t;
+
+    cout << "t=" << t << " ";
+
+    Node<T> *cur = head;
+    Node<T> *prev = nullptr;
+
+    for (; cur != nullptr; cur = cur->next) {
+        if (t == cur->data) { return; }
+        if (t < cur->data) { break; }
+        prev = cur;
+    }
+
+    if (prev == nullptr) {
+        newNode->next = nullptr;
+        head = newNode;
+        cout << "prev=null" << endl;
+    } else {
+        cout << "prev=" << prev->data << endl;
+        newNode->next = cur;
+        prev->next = newNode;
+    }
 }
 
 #endif //ASS7_LINKEDLIST_H
