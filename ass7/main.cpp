@@ -2,12 +2,27 @@
 #include "StackWithVector.h"
 #include "RandomQueue.h"
 #include "LinkedList.h"
+#include "CircularLinkedList.h"
 
 using namespace std;
 
 int main() {
 
-    LinkedList<int> list;
+    CircularLinkedList<int> clist;
+
+//    clist.add(0);
+//    clist.show();
+//
+//    clist.add(1);
+//    clist.show();
+
+    for (int i = 9; i >=0; --i) {
+        clist.add(i);
+    }
+    clist.show();
+
+
+//    LinkedList<int> list;
 
 //    list.insertSorted(0); list.show();
 //    list.insertSorted(1); list.show();
@@ -21,14 +36,14 @@ int main() {
 //    list.insertSorted(1); list.show();
 
 
-    srand(0);
-    for (int i = 0; i < 10; ++i) {
-        int n = rand() % 10;
-        cout << n << " ";
-//        list.insertSortedRec(n);
-    }
-    cout << endl;
-    list.show();
+//    srand(0);
+//    for (int i = 0; i < 10; ++i) {
+//        int n = rand() % 10;
+//        cout << n << " ";
+////        list.insertSortedRec(n);
+//    }
+//    cout << endl;
+//    list.show();
 
 
 //    for (int i = 4; i >= 0; --i) {
