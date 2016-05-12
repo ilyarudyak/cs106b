@@ -3,12 +3,19 @@
 #include "RandomQueue.h"
 #include "LinkedList.h"
 #include "CircularLinkedList.h"
+#include "QueueWithCLL.h"
 
 using namespace std;
 
 int main() {
 
-    CircularLinkedList<int> clist;
+    QueueWithCLL<int> queue;
+    for (int i = 0; i < 5; ++i) {
+        queue.enqueue(i);
+    }
+    queue.show();
+
+//    CircularLinkedList<int> clist;
 
 //    clist.add(0);
 //    clist.show();
@@ -16,10 +23,10 @@ int main() {
 //    clist.add(1);
 //    clist.show();
 
-    for (int i = 9; i >=0; --i) {
-        clist.add(i);
-    }
-    clist.show();
+//    for (int i = 9; i >=0; --i) {
+//        clist.add(i);
+//    }
+//    clist.show();
 
 
 //    LinkedList<int> list;

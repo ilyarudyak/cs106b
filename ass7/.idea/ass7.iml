@@ -5,10 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/CircularLinkedList.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LinkedList.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StackWithVector.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/RandomQueue.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Stack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/QueueWithCLL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RandomQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
