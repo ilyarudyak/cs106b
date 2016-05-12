@@ -26,6 +26,7 @@ public:
     void show();
     void showRec(Node<T>*);
     void showRec();
+
     void insertSorted(T);
 
     // from ass. 7
@@ -163,6 +164,8 @@ template <typename T> void LinkedList<T>::insertSorted(T t) {
         prev->next = newNode;
     }
 }
+
+
 
 #endif //ASS7_LINKEDLIST_H
 

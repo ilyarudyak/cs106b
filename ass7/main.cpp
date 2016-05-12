@@ -9,26 +9,26 @@ int main() {
 
     LinkedList<int> list;
 
-    list.insertSorted(0); list.show();
-    list.insertSorted(1); list.show();
-    list.insertSorted(5); list.show();
-    list.insertSorted(2); list.show();
-    list.insertSorted(1); list.show();
-    list.insertSorted(1); list.show();
-    list.insertSorted(0); list.show();
-    list.insertSorted(7); list.show();
-    list.insertSorted(8); list.show();
-    list.insertSorted(1); list.show();
+//    list.insertSorted(0); list.show();
+//    list.insertSorted(1); list.show();
+//    list.insertSorted(5); list.show();
+//    list.insertSorted(2); list.show();
+//    list.insertSorted(1); list.show();
+//    list.insertSorted(1); list.show();
+//    list.insertSorted(0); list.show();
+//    list.insertSorted(7); list.show();
+//    list.insertSorted(8); list.show();
+//    list.insertSorted(1); list.show();
 
 
-//    srand(0);
-//    for (int i = 0; i < 10; ++i) {
-//        int n = rand() % 10;
-//        cout << n << " ";
-//        list.insertSorted(n);
-//    }
-//    cout << endl;
-//    list.show();
+    srand(0);
+    for (int i = 0; i < 10; ++i) {
+        int n = rand() % 10;
+        cout << n << " ";
+//        list.insertSortedRec(n);
+    }
+    cout << endl;
+    list.show();
 
 
 //    for (int i = 4; i >= 0; --i) {
