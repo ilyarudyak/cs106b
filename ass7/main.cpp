@@ -9,11 +9,11 @@ using namespace std;
 
 int main() {
 
-    QueueWithCLL<int> queue;
-    for (int i = 0; i < 5; ++i) {
-        queue.enqueue(i);
-    }
-    queue.show();
+//    QueueWithCLL<int> queue;
+//    for (int i = 0; i < 5; ++i) {
+//        queue.enqueue(i);
+//    }
+//    queue.show();
 
 //    CircularLinkedList<int> clist;
 
