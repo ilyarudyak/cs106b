@@ -1,9 +1,32 @@
 #include <iostream>
 #include <fstream>
 #include "BST.h"
+#include "QueueWithArray.h"
 using namespace std;
 
 int main() {
+
+    // queue implementation with array
+    QueueWithArray<int> queue;
+    queue.show();
+    for (int i = 0; i < 5; ++i) {
+        queue.enqueue(i);
+    }
+    queue.show();
+
+    queue.dequeue();
+    queue.show();
+
+    queue.dequeue();
+    queue.show();
+
+    queue.enqueue(5);
+    queue.show();
+
+    queue.enqueue(6);
+    queue.show();
+    queue.enqueue(7);
+    queue.show();
 
     // 5. height() and isBalanced()
 //    BST<string> tree;
@@ -28,8 +51,6 @@ int main() {
 //    tree2.breadthFirst();
 //    cout << "balanced:" << tree2.isBalanced() << endl;
 //    cout << "balanced:" << tree2.isBalancedEff() << endl;
-
-
 
 
     // 4. trim leaves
