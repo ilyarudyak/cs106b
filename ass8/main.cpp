@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
 
+    // 5. height() and isBalanced()
     BST<string> tree;
     ifstream in("tinyST.txt");
     string letter;

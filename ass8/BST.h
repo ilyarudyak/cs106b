@@ -37,6 +37,7 @@ public:
     void trimLeaves();
     int height();
 
+
 private:
     Node<T> *root;
     bool compare(Node<T> *v, Node<T> *w);
