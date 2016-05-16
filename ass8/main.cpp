@@ -6,14 +6,27 @@ using namespace std;
 int main() {
 
     BST<string> tree;
-    tree.insert("Jan");
-    tree.insert("Cindy"); tree.insert("Marsha");
-    tree.insert("Bobby"); tree.insert("Greg"); tree.insert("Peter");
-    tree.insert("Tiger");
-    tree.breadthFirst();
+    ifstream in("tinyST.txt");
+    string letter;
+    while (in >> letter) {
+        tree.insert(letter);
+    }
 
-    tree.trimLeaves();
     tree.breadthFirst();
+    cout << tree.height() << endl;
+
+
+
+    // 4. trim leaves
+//    BST<string> tree;
+//    tree.insert("Jan");
+//    tree.insert("Cindy"); tree.insert("Marsha");
+//    tree.insert("Bobby"); tree.insert("Greg"); tree.insert("Peter");
+//    tree.insert("Tiger");
+//    tree.breadthFirst();
+//
+//    tree.trimLeaves();
+//    tree.breadthFirst();
 
     // 3. tree equal
 //    BST<string> tree2;

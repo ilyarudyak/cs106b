@@ -7,6 +7,7 @@
 
 #include <queue>
 #include <iostream>
+#include <algorithm>
 
 template<class T> class Node {
 public:
@@ -32,10 +33,9 @@ public:
     void insert(const T&);
 
     void breadthFirst();
-
     bool operator==(BST<T> &other);
-
     void trimLeaves();
+    int height();
 
 private:
     Node<T> *root;
@@ -44,6 +44,8 @@ private:
     bool isLeaf(Node<T> *v) {
         return v->left == nullptr && v->right == nullptr;
     }
+    int height(int acc, Node<T> *v);
+    int height2(Node<T> *v);
 };
 
 template<class T> T* BST<T>::search(const T &t) const {
@@ -149,6 +151,24 @@ template<class T> void BST<T>::trimLeaves(Node<T> *&v) {
 }
 template<class T> void BST<T>::trimLeaves() {
     trimLeaves(root);
+}
+
+template<class T> int BST<T>::height(int acc, Node<T> *v) {
+
+    if (v == nullptr) { return acc; }
+
+    return std::max(height(acc + 1, v->left),
+                    height(acc + 1, v->right));
+}
+template<class T> int BST<T>::height2(Node<T> *v) {
+    if (v == nullptr) {
+        return 0;
+    }
+    return std::max(height2(v->left), height2(v->right)) + 1;
+}
+template<class T> int BST<T>::height() {
+//    return height(0, root);
+    return height2(root);
 }
 
 #endif //ASS8_BST_H
