@@ -35,9 +35,15 @@ public:
 
     bool operator==(BST<T> &other);
 
+    void trimLeaves();
+
 private:
     Node<T> *root;
     bool compare(Node<T> *v, Node<T> *w);
+    void trimLeaves(Node<T> *&v);
+    bool isLeaf(Node<T> *v) {
+        return v->left == nullptr && v->right == nullptr;
+    }
 };
 
 template<class T> T* BST<T>::search(const T &t) const {
@@ -130,6 +136,20 @@ template<class T> bool BST<T>::operator==(BST<T> &other) {
     return compare(root, other.root);
 }
 
+template<class T> void BST<T>::trimLeaves(Node<T> *&v) {
+
+    if (v == nullptr) { return; }
+    if (isLeaf(v)) {
+        delete(v);
+        v = nullptr;
+        return;
+    }
+    trimLeaves(v->left);
+    trimLeaves(v->right);
+}
+template<class T> void BST<T>::trimLeaves() {
+    trimLeaves(root);
+}
 
 #endif //ASS8_BST_H
 
