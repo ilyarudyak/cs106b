@@ -6,15 +6,29 @@ using namespace std;
 int main() {
 
     // 5. height() and isBalanced()
-    BST<string> tree;
-    ifstream in("tinyST.txt");
-    string letter;
-    while (in >> letter) {
-        tree.insert(letter);
-    }
+//    BST<string> tree;
+//    ifstream in("tinyST.txt");
+//    string letter;
+//    while (in >> letter) {
+//        tree.insert(letter);
+//    }
+//
+//    tree.breadthFirst();
+//    cout << tree.height() << endl;
 
-    tree.breadthFirst();
-    cout << tree.height() << endl;
+//    cout << tree.isBalanced() << endl;
+
+//    BST<string> tree2;
+//        ifstream in("balanced.txt");
+//    string letter;
+//    while (in >> letter) {
+//        tree2.insert(letter);
+//    }
+//
+//    tree2.breadthFirst();
+//    cout << "balanced:" << tree2.isBalanced() << endl;
+//    cout << "balanced:" << tree2.isBalancedEff() << endl;
+
 
 
 

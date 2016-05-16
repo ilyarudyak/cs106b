@@ -8,6 +8,7 @@
 #include <queue>
 #include <iostream>
 #include <algorithm>
+#include <cmath>
 
 template<class T> class Node {
 public:
@@ -36,6 +37,8 @@ public:
     bool operator==(BST<T> &other);
     void trimLeaves();
     int height();
+    bool isBalanced();
+    bool isBalancedEff();
 
 
 private:
@@ -47,6 +50,8 @@ private:
     }
     int height(int acc, Node<T> *v);
     int height2(Node<T> *v);
+    int heightEff(Node<T> *v);
+    bool isBalanced(Node<T> *v);
 };
 
 template<class T> T* BST<T>::search(const T &t) const {
@@ -107,13 +112,13 @@ template<class T> void BST<T>::breadthFirst() {
         if (v != nullptr) {
             std::cout << v->data << " ";
         }
-
-        if (v->left != nullptr) {
-            q.push(v->left);
-        }
         if (v->right != nullptr) {
             q.push(v->right);
         }
+        if (v->left != nullptr) {
+            q.push(v->left);
+        }
+
 
     }
     std::cout << std::endl;
@@ -167,9 +172,40 @@ template<class T> int BST<T>::height2(Node<T> *v) {
     }
     return std::max(height2(v->left), height2(v->right)) + 1;
 }
+template<class T> int BST<T>::heightEff(Node<T> *v) {
+    if (v == nullptr) {
+        return 0;
+    }
+
+    int lh = heightEff(v->left);
+    if (lh == -1) { return false; }
+
+    int rh = heightEff(v->right);
+    if (rh == -1) { return false; }
+
+    return (std::abs(lh - rh) > 1) ? -1 : (std::max(lh, rh) + 1);
+}
 template<class T> int BST<T>::height() {
 //    return height(0, root);
     return height2(root);
+}
+
+template<class T> bool BST<T>::isBalanced(Node<T> *v) {
+
+    if (v == nullptr) {
+        return true;
+    }
+
+    if (std::abs(height2(v->left) - height2(v->right)) > 1) {
+        return false;
+    }
+    return isBalanced(v->left) && isBalanced(v->right);
+}
+template<class T> bool BST<T>::isBalanced() {
+    return isBalanced(root);
+}
+template<class T> bool BST<T>::isBalancedEff() {
+    return heightEff(root) != -1;
 }
 
 #endif //ASS8_BST_H
