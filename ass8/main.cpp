@@ -2,12 +2,14 @@
 #include <fstream>
 #include "BST.h"
 #include "QueueWithArray.h"
+#include "QueueWithArray2.h"
+
 using namespace std;
 
 int main() {
 
     // queue implementation with array
-    QueueWithArray<int> queue;
+    QueueWithArray2<int> queue;
     queue.show();
     for (int i = 0; i < 5; ++i) {
         queue.enqueue(i);
