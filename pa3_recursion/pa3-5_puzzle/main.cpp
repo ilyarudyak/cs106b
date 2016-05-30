@@ -2,30 +2,32 @@
 #include <vector>
 using namespace std;
 
-void Solvable(string acc, int position, vector<int> &squares) {
+bool solvable(string acc, int curPos, vector<int> &squares, vector<bool> marked) {
 
-    if (position == (squares.size() - 1)) {
-        cout << acc << endl;
-        return;
+    if (curPos < 0 || curPos > squares.size() - 1 || marked[curPos]) {
+        return false;
     }
 
-
-    if (position + squares[position] < squares.size()) {
-        Solvable(acc + to_string(position),
-                 position + squares[position], squares);
+    if (curPos == squares.size() - 1) {
+        cout << acc + " " + to_string(curPos) + ":" + to_string(squares[curPos]) << endl;
+        return true;
     }
 
-    if (position - squares[position] >= 0) {
-        Solvable(acc + to_string(position),
-                 position - squares[position], squares);
-    }
+    marked[curPos] = true;
+
+    return solvable(acc + to_string(curPos) + ":" + to_string(squares[curPos]) + " ",
+             curPos + squares[curPos], squares, marked) ||
+           solvable(acc + to_string(curPos) + ":" + to_string(squares[curPos]) + " ",
+             curPos - squares[curPos], squares, marked);
+
 
 }
 
 int main() {
 
     vector<int> squares = {3, 6, 4, 1, 3, 4, 2, 5, 3, 0};
-    Solvable("test", 0, squares);
+    vector<bool> marked(squares.size(), false);
+    solvable("", 0, squares, marked);
 
     return 0;
 }

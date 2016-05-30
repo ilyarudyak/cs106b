@@ -179,8 +179,8 @@
           <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
           <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
           <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
-          <root url="file:///Library/Developer/CommandLineTools/usr/lib/clang/7.0.2/include" />
           <root url="file:///Library/Developer/CommandLineTools/usr/include" />
+          <root url="file:///Library/Developer/CommandLineTools/usr/lib/clang/7.3.0/include" />
           <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
           <root url="file:///Library/Frameworks/R.framework/Headers" />
           <root url="file:///Library/Frameworks/R.framework/PrivateHeaders" />
@@ -358,8 +358,8 @@
           <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
           <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
           <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
-          <root url="file:///Library/Developer/CommandLineTools/usr/lib/clang/7.0.2/include" />
           <root url="file:///Library/Developer/CommandLineTools/usr/include" />
+          <root url="file:///Library/Developer/CommandLineTools/usr/lib/clang/7.3.0/include" />
           <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
           <root url="file:///Library/Frameworks/R.framework/Headers" />
           <root url="file:///Library/Frameworks/R.framework/PrivateHeaders" />
