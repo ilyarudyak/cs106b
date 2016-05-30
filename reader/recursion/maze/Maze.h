@@ -11,17 +11,25 @@
 #include "Point.h"
 #include "Direction.h"
 
+using namespace std;
+
 class Maze {
 
 public:
-    Maze(std::string filename);
-    Point getStartPosition();
+    Maze(string filename);
+
+    // check if next move is possible
     bool isOutside(Point pt);
     bool wallExists(Point pt, Direction dir);
+
+    // mark and unmark square
     void markSquare(Point pt);
     void unmarkSquare(Point pt);
     bool isMarked(Point pt);
+
+    // utility functions
     void printMaze();
+    Point getStartPosition();
 
 private:
     struct Square {
@@ -31,7 +39,7 @@ private:
 
     // maze.size()    - number of rows
     // maze[0].size() - number of columns
-    std::vector<std::vector<Square> > maze;
+    vector<vector<Square> > maze;
     Point startSquare;
     int rows;
     int cols;
@@ -39,11 +47,11 @@ private:
     /* private functions */
 
     // read file
-    void readMazeFile(std::string filename);
-    void computeMazeSize(std::ifstream & infile);
-    void processMazeFile(std::ifstream &in);
-    void processDividerLine(std::string line, int x);
-    void processPassageLine(std::string line, int z);
+    void readMazeFile(string filename);
+    void computeMazeSize(ifstream & infile);
+    void processMazeFile(ifstream &in);
+    void processDividerLine(string line, int x);
+    void processPassageLine(string line, int z);
     void setHorizontalWall(Point pt);
     void setVerticalWall(Point pt);
     void setStartSquare(Point pt);

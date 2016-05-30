@@ -5,7 +5,7 @@
 #ifndef MAZE_DIRECTION_H
 #define MAZE_DIRECTION_H
 
-#include <string>;
+#include <string>
 
 enum Direction { NORTH, EAST, SOUTH, WEST };
 Direction leftFrom(Direction dir);

@@ -1,35 +1,47 @@
 #include <iostream>
 #include "Maze.h"
+#include "Direction.h"
 using namespace std;
 
-Point adjacentPoint(Point start, Direction dir) {
+Point adjacentPoint(Point curPos, Direction dir) {
     switch (dir) {
-        case NORTH: return Point(start.getX() - 1, start.getY()    );
-        case EAST:  return Point(start.getX()    , start.getY() + 1);
-        case SOUTH: return Point(start.getX() + 1, start.getY()    );
-        case WEST:  return Point(start.getX(),     start.getY() - 1);
+        case NORTH: return Point(curPos.getX() - 1, curPos.getY()    );
+        case EAST:  return Point(curPos.getX()    , curPos.getY() + 1);
+        case SOUTH: return Point(curPos.getX() + 1, curPos.getY()    );
+        case WEST:  return Point(curPos.getX(),     curPos.getY() - 1);
     }
-    return start;
+    return curPos;
 }
+bool solveMaze(Maze &maze, Point curPos) {
 
-bool solveMaze(Maze &maze, Point start) {
-    if (maze.isOutside(start)) return true;
-    if (maze.isMarked(start)) return false;
-    maze.markSquare(start);
+    // base case
+    if (maze.isOutside(curPos)) {
+        return true;
+    }
+
+    if (maze.isMarked(curPos)) {
+        return false;
+    }
+
+
+    // inductive case
+    maze.markSquare(curPos);
     for (Direction dir = NORTH; dir <= WEST; dir++) {
-        if (!maze.wallExists(start, dir)) {
-            if (solveMaze(maze, adjacentPoint(start, dir))) {
+        if (!maze.wallExists(curPos, dir)) {
+            if (solveMaze(maze, adjacentPoint(curPos, dir))) {
                 return true;
             }
         }
     }
-    maze.unmarkSquare(start);
+    maze.unmarkSquare(curPos);
+
     return false;
+
 }
 
 int main() {
 
-    Maze maze("SampleMaze.txt");
+    Maze maze("simple_maze.txt");
     if (solveMaze(maze, maze.getStartPosition())) {
         maze.printMaze();
         cout << "The marked path is a solution." << endl;
