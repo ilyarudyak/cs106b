@@ -6,12 +6,13 @@
 #define MAZE_DIRECTION_H
 
 #include <string>
+using namespace std;
 
 enum Direction { NORTH, EAST, SOUTH, WEST };
 Direction leftFrom(Direction dir);
 Direction rightFrom(Direction dir);
 Direction opposite(Direction dir);
-std::string directionToString(Direction dir);
+string directionToString(Direction dir);
 
 std::ostream &operator<<(std::ostream & os, const Direction & dir);
 Direction operator++(Direction & dir, int);

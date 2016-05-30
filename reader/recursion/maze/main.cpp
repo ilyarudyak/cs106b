@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Maze.h"
-#include "Direction.h"
 using namespace std;
 
 Point adjacentPoint(Point curPos, Direction dir) {
