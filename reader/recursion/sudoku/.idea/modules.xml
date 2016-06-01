@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sudoku.iml" filepath="$PROJECT_DIR$/sudoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../languages/C++/cs106b/reader/recursion/sudoku/sudoku.iml" filepath="$PROJECT_DIR$/../../../../languages/C++/cs106b/reader/recursion/sudoku/sudoku.iml" />
     </modules>
   </component>
 </project>
