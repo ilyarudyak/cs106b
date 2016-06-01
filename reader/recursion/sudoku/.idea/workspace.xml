@@ -64,8 +64,8 @@
       <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../../languages/C++/cs106b/reader/recursion/sudoku/src/main/java/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5980114">
-              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.7400568">
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#SudokuSolver#0" expanded="false" />
                 <element signature="method#SudokuSolver#0;class#SudokuSolver#0" expanded="false" />
@@ -813,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../languages/C++/cs106b/reader/recursion/sudoku/src/main/java/SudokuSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5980114">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.7400568">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#SudokuSolver#0" expanded="false" />
             <element signature="method#SudokuSolver#0;class#SudokuSolver#0" expanded="false" />
