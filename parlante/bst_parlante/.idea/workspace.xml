@@ -33,27 +33,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+            <state relative-caret-position="817">
+              <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
               <folding>
                 <element signature="e#43#119#1" expanded="false" />
                 <element signature="e#121#255#0" expanded="false" />
-                <element signature="e#256#563#0" expanded="false" />
                 <element signature="e#565#695#0" expanded="false" />
                 <element signature="e#696#909#0" expanded="false" />
+                <element signature="e#910#1049#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -193,9 +183,9 @@
           <folding>
             <element signature="e#43#119#1" expanded="false" />
             <element signature="e#121#255#0" expanded="false" />
-            <element signature="e#256#563#0" expanded="false" />
             <element signature="e#565#695#0" expanded="false" />
             <element signature="e#696#909#0" expanded="false" />
+            <element signature="e#910#1049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -215,9 +205,9 @@
           <folding>
             <element signature="e#43#119#1" expanded="false" />
             <element signature="e#121#255#0" expanded="false" />
-            <element signature="e#256#563#0" expanded="false" />
             <element signature="e#565#695#0" expanded="false" />
             <element signature="e#696#909#0" expanded="false" />
+            <element signature="e#910#1049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -232,14 +222,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        <state relative-caret-position="817">
+          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
           <folding>
             <element signature="e#43#119#1" expanded="false" />
             <element signature="e#121#255#0" expanded="false" />
-            <element signature="e#256#563#0" expanded="false" />
             <element signature="e#565#695#0" expanded="false" />
             <element signature="e#696#909#0" expanded="false" />
+            <element signature="e#910#1049#0" expanded="false" />
           </folding>
         </state>
       </provider>

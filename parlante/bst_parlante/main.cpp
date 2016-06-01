@@ -54,6 +54,15 @@ int height(Node *node) {
 
     return 1 + max(height(node->left), height(node->right));
 }
+bool pathSum(Node* node, int sum) {
+
+    if (node->left == nullptr && node->right == nullptr) {
+        return sum == node->data;
+    }
+
+    return pathSum(node->left, sum - node->data) ||
+           pathSum(node->right, sum - node->data);
+}
 
 int main() {
 
@@ -72,7 +81,30 @@ int main() {
 //    root->right->right->right = newNode(150);
 //    cout << "height=" << height(root) << endl;
 
+    // problem 7 pathSum()
+//    cout << "hasPath=" << pathSum(root, 180) << endl;
 
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
