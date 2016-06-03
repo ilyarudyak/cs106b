@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -48,6 +49,27 @@ void push(Node *&head, int data) {
     node->next = head;
     head = node;
 }
+int count(int acc, Node *node, int data) {
+    if (node == nullptr) {
+        return acc;
+    }
+
+    if (node->data == data) {
+        return count(acc + 1, node->next, data);
+    } else {
+        return count(acc, node->next, data);
+    }
+
+}
+Node *sampleList(fstream &in) {
+    int data;
+    Node *head = nullptr;
+    while(in >> data) {
+        push(head, data);
+    }
+    return head;
+}
+
 
 int main() {
 
@@ -57,9 +79,15 @@ int main() {
 //    cout << length(head) << endl;
 
     // test push()
-    Node *head = nullptr;
-    push(head, 3); push(head, 2); push(head, 1);
+//    Node *head = nullptr;
+//    push(head, 3); push(head, 2); push(head, 1);
+//    printList(head);
+
+    // test count
+    fstream in("list.txt");
+    Node *head = sampleList(in);
     printList(head);
+    cout << count(0, head, 3) << endl;
 
     return 0;
 }
