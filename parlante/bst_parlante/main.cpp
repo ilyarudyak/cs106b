@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <queue>
+#include <iomanip>
 
 using namespace std;
 
@@ -132,13 +133,55 @@ void printPaths(string path, Node *node) {
     }
 
 }
+void mirror(Node *node) {
 
+    if (node == nullptr) {
+        return;
+    }
+
+    Node *tmp = node->left;
+    node->left = node->right;
+    node->right = tmp;
+
+    mirror(node->left);
+    mirror(node->right);
+}
+void doubleTree(Node *node) {
+
+    if (node == nullptr) {
+        return;
+    }
+
+    doubleTree(node->left);
+    doubleTree(node->right);
+
+    Node *doubleNode = newNode(node->data);
+    doubleNode->left = node->left;
+    node->left = doubleNode;
+
+
+}
+bool sameTree(Node *node, Node *node2) {
+
+    if (node == nullptr && node2 == nullptr) {
+        return true;
+    } else if (node == nullptr || node2 == nullptr) {
+        return false;
+    }
+
+    if (node->data != node2->data) {
+        return false;
+    }
+
+    return sameTree(node->left, node2->left) &&
+           sameTree(node->right, node2->right);
+}
 
 int main() {
 
-    fstream in("bst.txt");
+//    fstream in("bst.txt");
 //    Node *root = sampleBST();
-    Node *root = sampleBST2(in);
+//    Node *root = sampleBST2(in);
 //    preOrder(root); cout << endl;
 //    printLevel(root);
 
@@ -159,8 +202,34 @@ int main() {
 //    cout << "hasPath=" << pathSum(root, 32) << endl;
 
     // problem 8 printPaths()
-    printPaths("", root);
+//    printPaths("", root);
 
+    // problem 9 mirror()
+//    fstream in("mirror.txt");
+//    Node *root = sampleBST2(in);
+//    printLevel(root);
+//
+//    mirror(root);
+//    printLevel(root);
+
+    // problem 10 double()
+//    fstream in("double.txt");
+//    Node *root = sampleBST2(in);
+//    printLevel(root);
+//
+//    doubleTree(root);
+//    printLevel(root);
+
+    // problem 11 sameTree()
+    fstream in("bst.txt");
+    Node *root = sampleBST2(in);
+    printLevel(root);
+
+    fstream in2("bst2.txt");
+    Node *root2 = sampleBST2(in2);
+    printLevel(root2);
+
+    cout << sameTree(root, root2) << endl;
 
     return 0;
 }
