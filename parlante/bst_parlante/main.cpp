@@ -250,8 +250,8 @@ int main() {
 //    cout << sameTree(root, root2) << endl;
 
     // problem 12 countTrees()
-    vector<int> cache(5, 0);
-    cout << countTrees(4, cache) << endl;
+//    vector<int> cache(5, 0);
+//    cout << countTrees(4, cache) << endl;
 
     return 0;
 }
