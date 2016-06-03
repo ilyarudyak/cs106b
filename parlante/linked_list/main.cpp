@@ -121,6 +121,19 @@ void split2(Node *&head, Node *&head2) {
     head2 = slow->next;
     slow->next = nullptr;
 }
+void duplicates(Node *&node) {
+
+    if (node == nullptr || node->next == nullptr) {
+        return;
+    }
+
+    if (node->next->data == node->data) {
+        pop(node->next);
+        duplicates(node);
+    } else {
+        duplicates(node->next);
+    }
+}
 
 
 int main() {
@@ -159,14 +172,22 @@ int main() {
 //    printList(head);
 
     // test split()
-    fstream in("split2.txt");
+//    fstream in("split2.txt");
+//    Node *head = sampleList(in);
+//    Node *head2 = nullptr;
+//    printList(head);
+//
+//    split2(head, head2);
+//    printList(head);
+//    printList(head2);
+
+    // test remove duplicates()
+    fstream in("duplicates.txt");
     Node *head = sampleList(in);
-    Node *head2 = nullptr;
     printList(head);
 
-    split2(head, head2);
+    duplicates(head);
     printList(head);
-    printList(head2);
 
     return 0;
 }
