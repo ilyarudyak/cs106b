@@ -176,6 +176,24 @@ bool sameTree(Node *node, Node *node2) {
     return sameTree(node->left, node2->left) &&
            sameTree(node->right, node2->right);
 }
+int countTrees(int n, vector<int> cache) {
+    int count = 0;
+    int left, right;
+
+    if (n == 0 || n == 1) {
+        return 1;
+    }
+
+    for (int i = 1; i <= n; ++i) {
+        if (cache[i - 1] != 0) { left = cache[i - 1]; }
+        else { left = countTrees(i - 1, cache); cache[i - 1] = left; }
+        if (cache[n - i] != 0) { right = cache[n - i]; }
+        else { right = countTrees(n - i, cache); cache[n - i] = right; }
+
+        count += left * right;
+    }
+    return count;
+}
 
 int main() {
 
@@ -221,15 +239,19 @@ int main() {
 //    printLevel(root);
 
     // problem 11 sameTree()
-    fstream in("bst.txt");
-    Node *root = sampleBST2(in);
-    printLevel(root);
+//    fstream in("bst.txt");
+//    Node *root = sampleBST2(in);
+//    printLevel(root);
+//
+//    fstream in2("bst2.txt");
+//    Node *root2 = sampleBST2(in2);
+//    printLevel(root2);
+//
+//    cout << sameTree(root, root2) << endl;
 
-    fstream in2("bst2.txt");
-    Node *root2 = sampleBST2(in2);
-    printLevel(root2);
-
-    cout << sameTree(root, root2) << endl;
+    // problem 12 countTrees()
+    vector<int> cache(5, 0);
+    cout << countTrees(4, cache) << endl;
 
     return 0;
 }
