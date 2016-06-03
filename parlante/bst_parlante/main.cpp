@@ -1,4 +1,6 @@
 #include <iostream>
+#include <fstream>
+#include <queue>
 
 using namespace std;
 
@@ -15,6 +17,20 @@ Node *newNode(int data) {
 
     return temp;
 }
+// we don't use here &node, instead we use node = insert(node)
+Node* insert(Node* node, int data) {
+    // 1. if the tree is empty, return a new, single node
+    if (node == nullptr) {
+        return newNode(data);
+    }
+    else {
+        // 2. otherwise, recur down the tree
+        if (data <= node->data) { node->left = insert(node->left, data); }
+        else { node->right = insert(node->right, data); }
+
+        return node; // return the (unchanged) node pointer
+    }
+}
 Node *sampleBST() {
     Node *root         = newNode(80);
     root->left         = newNode(60);
@@ -24,6 +40,14 @@ Node *sampleBST() {
     root->right->left  = newNode(85);
     root->right->right = newNode(130);
 
+    return root;
+}
+Node *sampleBST2(fstream &in) {
+    int data;
+    Node *root = nullptr;
+    while (in >> data) {
+        root = insert(root, data);
+    }
     return root;
 }
 
@@ -56,6 +80,10 @@ int height(Node *node) {
 }
 bool pathSum(Node* node, int sum) {
 
+    if (node == nullptr) {
+        return false;
+    }
+
     if (node->left == nullptr && node->right == nullptr) {
         return sum == node->data;
     }
@@ -63,10 +91,56 @@ bool pathSum(Node* node, int sum) {
     return pathSum(node->left, sum - node->data) ||
            pathSum(node->right, sum - node->data);
 }
+void preOrder(Node *node) {
+    if (node == nullptr) {
+        return;
+    }
+
+    cout << node->data << " ";
+    preOrder(node->left);
+    preOrder(node->right);
+}
+void printLevel(Node *node) {
+
+    if (node == nullptr) {
+        cout << "tree is empty ..." << endl;
+        return;
+    }
+    queue<Node *> q;
+    q.push(node);
+    while (!q.empty()) {
+        Node *v = q.front();
+        q.pop();
+        if (v != nullptr) {
+            cout << v->data << " ";
+            q.push(v->left);
+            q.push(v->right);
+        }
+    }
+    cout << endl;
+}
+void printPaths(string path, Node *node) {
+    if (node == nullptr) {
+        return;
+    }
+
+    if (node->left == nullptr && node->right == nullptr) {
+        cout << path + to_string(node->data) << endl;
+    } else {
+        printPaths(path + to_string(node->data) + "-", node->left);
+        printPaths(path + to_string(node->data) + "-", node->right);
+    }
+
+}
+
 
 int main() {
 
-    Node *root = sampleBST();
+    fstream in("bst.txt");
+//    Node *root = sampleBST();
+    Node *root = sampleBST2(in);
+//    preOrder(root); cout << endl;
+//    printLevel(root);
 
     // count leafs of the tree
 //    Node *root = sampleBST();
@@ -82,7 +156,10 @@ int main() {
 //    cout << "height=" << height(root) << endl;
 
     // problem 7 pathSum()
-//    cout << "hasPath=" << pathSum(root, 180) << endl;
+//    cout << "hasPath=" << pathSum(root, 32) << endl;
+
+    // problem 8 printPaths()
+    printPaths("", root);
 
 
     return 0;
