@@ -69,9 +69,64 @@ Node *sampleList(fstream &in) {
     }
     return head;
 }
+int pop(Node *&head) {
+
+    if (head == nullptr) {
+        cout << "list is empty ..." << endl;
+        return -1;
+    }
+
+    int tmp = head->data;
+    Node *tmpNode = head;
+    head = head->next;
+    delete(tmpNode);
+    return tmp;
+}
+void sortedInsert(Node *&node, int data) {
+    if (node == nullptr || data < node->data) {
+        push(node, data);
+        return;
+    }
+
+    sortedInsert(node->next, data);
+}
+void split(Node *&head, Node *&head2) {
+
+    // check for case len == 1
+
+    int n = length(head);
+    int count = 0;
+    int half = (n % 2 == 0 ? (n / 2) : (n / 2 + 1));
+
+    Node *cur = head;
+    while (count < half - 1) {
+        count++;
+        cur = cur->next;
+    }
+
+    head2 = cur->next;
+    cur->next = nullptr;
+}
+void split2(Node *&head, Node *&head2) {
+
+    // check for case len == 1
+
+    Node *slow = head;
+    Node *fast = head->next;
+    while (fast != nullptr && fast->next != nullptr) {
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+
+    head2 = slow->next;
+    slow->next = nullptr;
+}
 
 
 int main() {
+
+//    fstream in("list.txt");
+//    Node *head = sampleList(in);
 
     // test basic functions
 //    Node *head = buildOneTwoThree();
@@ -84,10 +139,34 @@ int main() {
 //    printList(head);
 
     // test count
-    fstream in("list.txt");
+//    printList(head);
+//    cout << count(0, head, 3) << endl;
+
+    // test pop()
+//    cout << pop(head) << endl;
+//    printList(head);
+//
+//    cout << pop(head) << endl;
+//    printList(head);
+
+    // test sortedInsert()
+//    printList(head);
+//
+//    sortedInsert(head, 3);
+//    printList(head);
+//
+//    sortedInsert(head, 7);
+//    printList(head);
+
+    // test split()
+    fstream in("split2.txt");
     Node *head = sampleList(in);
+    Node *head2 = nullptr;
     printList(head);
-    cout << count(0, head, 3) << endl;
+
+    split2(head, head2);
+    printList(head);
+    printList(head2);
 
     return 0;
 }
