@@ -12,8 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e965148e-e185-44e7-9453-fa0db8c44d59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert_sort.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shuffle.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shuffle2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bst_parlante/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bst_parlante/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
@@ -40,21 +40,36 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
               <folding>
+                <element signature="e#62#107#1" expanded="false" />
+                <element signature="e#109#229#0" expanded="false" />
                 <element signature="e#230#368#0" expanded="false" />
                 <element signature="e#369#653#0" expanded="false" />
                 <element signature="e#654#767#0" expanded="false" />
                 <element signature="e#768#886#0" expanded="false" />
-                <element signature="e#996#1238#0" expanded="false" />
-                <element signature="e#1239#1385#0" expanded="false" />
-                <element signature="e#2260#2583#0" expanded="false" />
-                <element signature="e#2584#2883#0" expanded="false" />
-                <element signature="e#2884#3136#0" expanded="false" />
-                <element signature="e#3137#3435#0" expanded="false" />
-                <marker date="1465128413000" expanded="false" signature="74:107" ph="{...}" />
+                <element signature="e#1407#1649#0" expanded="false" />
+                <element signature="e#1650#1796#0" expanded="false" />
+                <element signature="e#1797#2032#0" expanded="false" />
+                <element signature="e#2033#2210#0" expanded="false" />
+                <element signature="e#2211#2509#0" expanded="false" />
+                <element signature="e#2510#2680#0" expanded="false" />
+                <element signature="e#2681#3004#0" expanded="false" />
+                <element signature="e#3005#3304#0" expanded="false" />
+                <element signature="e#3305#3557#0" expanded="false" />
+                <element signature="e#3558#3856#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert_sort.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/insert_sort.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,6 +90,8 @@
         <option value="$PROJECT_DIR$/split3.txt" />
         <option value="$PROJECT_DIR$/insert.txt" />
         <option value="$PROJECT_DIR$/insert_sort.txt" />
+        <option value="$PROJECT_DIR$/shuffle1.txt" />
+        <option value="$PROJECT_DIR$/shuffle2.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -408,22 +425,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shuffle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuffle2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
           <folding>
+            <element signature="e#62#107#1" expanded="false" />
+            <element signature="e#109#229#0" expanded="false" />
             <element signature="e#230#368#0" expanded="false" />
             <element signature="e#369#653#0" expanded="false" />
             <element signature="e#654#767#0" expanded="false" />
             <element signature="e#768#886#0" expanded="false" />
-            <element signature="e#996#1238#0" expanded="false" />
-            <element signature="e#1239#1385#0" expanded="false" />
-            <element signature="e#2260#2583#0" expanded="false" />
-            <element signature="e#2584#2883#0" expanded="false" />
-            <element signature="e#2884#3136#0" expanded="false" />
-            <element signature="e#3137#3435#0" expanded="false" />
-            <marker date="1465128413000" expanded="false" signature="74:107" ph="{...}" />
+            <element signature="e#1407#1649#0" expanded="false" />
+            <element signature="e#1650#1796#0" expanded="false" />
+            <element signature="e#1797#2032#0" expanded="false" />
+            <element signature="e#2033#2210#0" expanded="false" />
+            <element signature="e#2211#2509#0" expanded="false" />
+            <element signature="e#2510#2680#0" expanded="false" />
+            <element signature="e#2681#3004#0" expanded="false" />
+            <element signature="e#3005#3304#0" expanded="false" />
+            <element signature="e#3305#3557#0" expanded="false" />
+            <element signature="e#3558#3856#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -49,6 +49,27 @@ void push(Node *&head, int data) {
     node->next = head;
     head = node;
 }
+void pushTail(Node *&head, Node *&tail, int data) {
+    Node *node = newNode(data);
+
+    if (head == nullptr) {
+        head = tail = node;
+        return;
+    }
+
+    tail->next = node;
+    tail = node;
+}
+void pushTail2(Node *&head, Node *&tail, Node *node) {
+
+    if (head == nullptr) {
+        head = tail = node;
+        return;
+    }
+
+    tail->next = node;
+    tail = node;
+}
 int count(int acc, Node *node, int data) {
     if (node == nullptr) {
         return acc;
@@ -171,6 +192,22 @@ void altSplit(Node *&node, Node *&node2) {
 
     altSplit(node->next, node2);
 }
+void shuffleMerge(Node *a, Node *b, Node *&head, Node *tail) {
+
+    if (a == nullptr) {
+        pushTail2(head, tail, b);
+        return;
+    }
+
+    if (b == nullptr) {
+        pushTail2(head, tail, a);
+        return;
+    }
+
+    pushTail2(head, tail, a);
+    shuffleMerge(b, a->next, head, tail);
+
+}
 
 
 int main() {
@@ -246,13 +283,39 @@ int main() {
 //    printList(head);
 
     // test insert sort
-    fstream in("insert_sort.txt");
-    Node *head = sampleList(in);
-    Node *head2 = nullptr;
-    printList(head);
+//    fstream in("insert_sort.txt");
+//    Node *head = sampleList(in);
+//    Node *head2 = nullptr;
+//    printList(head);
+//
+//    insertSort(head, head2);
+//    printList(head2);
 
-    insertSort(head, head2);
-    printList(head2);
+    // test shuffling
+//    fstream in("shuffle.txt");
+//    Node *a = sampleList(in);
+//    fstream in2("shuffle2.txt");
+//    Node *b = sampleList(in2);
+//    printList(a);
+//    printList(b);
+//
+//    Node *head = nullptr;
+//    Node *tail = nullptr;
+//    shuffleMerge(a, b, head, tail);
+//    printList(head);
+
+    // test pushTail()
+//    Node *head = nullptr;
+//    Node *tail = nullptr;
+//
+//    pushTail(head, tail, 1);
+//    printList(head);
+//
+//    pushTail(head, tail, 2);
+//    printList(head);
+//
+//    pushTail(head, tail, 3);
+//    printList(head);
 
     return 0;
 }
