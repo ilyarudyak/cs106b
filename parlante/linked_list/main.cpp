@@ -134,6 +134,21 @@ void duplicates(Node *&node) {
         duplicates(node->next);
     }
 }
+void altSplit(Node *&node, Node *&node2) {
+
+    if (node == nullptr || node->next == nullptr) {
+        return;
+    }
+
+    Node *tmp = node->next;
+    node->next = node->next->next;
+
+    // this works even if node2 == null
+    tmp->next = node2;
+    node2 = tmp;
+
+    altSplit(node->next, node2);
+}
 
 
 int main() {
@@ -182,12 +197,22 @@ int main() {
 //    printList(head2);
 
     // test remove duplicates()
-    fstream in("duplicates.txt");
-    Node *head = sampleList(in);
-    printList(head);
+//    fstream in("duplicates.txt");
+//    Node *head = sampleList(in);
+//    printList(head);
+//
+//    duplicates(head);
+//    printList(head);
 
-    duplicates(head);
-    printList(head);
+    // test altSplit()
+//    fstream in("split3.txt");
+//    Node *head = sampleList(in);
+//    Node *head2 = nullptr;
+//    printList(head);
+//
+//    altSplit(head, head2);
+//    printList(head);
+//    printList(head2);
 
     return 0;
 }
