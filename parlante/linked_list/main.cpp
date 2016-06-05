@@ -90,6 +90,28 @@ void sortedInsert(Node *&node, int data) {
 
     sortedInsert(node->next, data);
 }
+void sortedInsert2(Node *&node, Node *node2) {
+    if (node == nullptr) {
+        node2->next = nullptr;
+        node = node2;
+        return;
+    }
+
+    if (node2->data < node->data) {
+        node2->next = node;
+        node = node2;
+        return;
+    }
+
+    sortedInsert2(node->next, node2);
+}
+void insertSort(Node *&head, Node *&head2) {
+    while (head != nullptr) {
+        Node *tmp = head->next;
+        sortedInsert2(head2, head);
+        head = tmp;
+    }
+}
 void split(Node *&head, Node *&head2) {
 
     // check for case len == 1
@@ -213,6 +235,24 @@ int main() {
 //    altSplit(head, head2);
 //    printList(head);
 //    printList(head2);
+
+    // test sorted (again)
+//    fstream in("insert.txt");
+//    Node *head = sampleList(in);
+//    Node *node2 = newNode(6);
+//    printList(head);
+//
+//    sortedInsert2(head, node2);
+//    printList(head);
+
+    // test insert sort
+    fstream in("insert_sort.txt");
+    Node *head = sampleList(in);
+    Node *head2 = nullptr;
+    printList(head);
+
+    insertSort(head, head2);
+    printList(head2);
 
     return 0;
 }
